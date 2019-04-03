@@ -5,16 +5,29 @@ body {
 .header {
     text-align: right;
     border: 3px solid #BF2C2C;
-    border-radius: 3px;
+    border-radius: 2px;
     width: 85%;
-    margin: 0 auto;
+    margin: 20px auto;
+    margin-top: 0;
     background-color: #377BA6;
     padding: 0;
 }
+.header__img {
+    float: left;
+    display: inline;
+    width: 128px;
+    height: auto;
+}
 
 .header__name {
-    margin: 2px 2px;
+    margin-right: 20px;
     font-size: 2em;
+    margin-bottom: 0;
+}
+
+.header__tagline {
+    margin-right: 20px;
+    margin-top: 0;
 }
 
 .main {
@@ -47,6 +60,10 @@ body {
 
 .uline {
     text-decoration: underline;
+}
+
+.top {
+    margin: 0;
 }
 
 li {
